@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Reading Progress Indicator",
+    "name": "ScrollTrack",
     "version": "1.0",
     "description": "Displays a reading progress indicator on web pages.",
     "permissions": ["activeTab"],
