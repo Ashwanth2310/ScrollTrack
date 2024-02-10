@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Reading Progress Indicator",
+    "version": "1.0",
+    "description": "Displays a reading progress indicator on web pages.",
+    "permissions": ["activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["content.css"] 
+      }
+    ],
+    "icons": {
+        "128": "icon.png"
+      }
+  }
+  

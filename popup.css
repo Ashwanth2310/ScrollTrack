@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+  }
+  
+  .progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+  }
+  
+  #progressText {
+    margin-top: 10px;
+  }
+  
